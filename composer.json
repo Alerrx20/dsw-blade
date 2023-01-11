@@ -1,0 +1,23 @@
+{
+    "name": "dsw/blade",
+    "description": "Pruebas con las plantillas blade",
+    "type": "project",
+    "require": {
+        "philo/laravel-blade": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dsw\\Blade\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ale"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
