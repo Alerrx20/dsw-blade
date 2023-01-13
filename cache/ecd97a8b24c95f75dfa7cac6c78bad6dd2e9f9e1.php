@@ -1,0 +1,1 @@
+<h2>No hay <?php echo e($elementos); ?></h2>
