@@ -11,7 +11,7 @@ $cache = '../cache';
 $blade = new Blade($views, $cache);
 
 $persons = Person::all();
-foreach ($persons as $person) {
-  echo "<p>" . $person->name . "</p>";
-}
+// foreach ($persons as $person) {
+//   echo "<p>" . $person->name . "</p>";
+// }
 echo $blade->view()->make('layouts.person', compact('persons'))->render();
