@@ -11,3 +11,6 @@ echo "<h1>" . $person->id . " - " . $person->name . "</h1>";
   <input type="text" name="name" id="name" value="<?=$person->name?>">
   <input type="submit" value="Modificar">
 </form>
+<p>
+  <a href="deleteperson.php?id=<?=$person->id?>">Eliminar</a>
+</p>
